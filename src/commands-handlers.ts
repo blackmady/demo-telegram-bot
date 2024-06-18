@@ -95,7 +95,7 @@ export async function handleSendTXCommand(msg: TelegramBot.Message): Promise<voi
             ),
             messages: [
                 {
-                    amount: '1000000',
+                    amount: '0',
                     address: '0:0000000000000000000000000000000000000000000000000000000000000000'
                 }
             ]
